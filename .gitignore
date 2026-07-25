@@ -1,0 +1,56 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Claude
+.claude/
+
+# Dataset
+dataset/raw/
+dataset/processed/
+
+# Trained models
+models/*.keras
+models/*.h5
+models/*.pkl
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/*.onnx
+
+# Generated reports
+reports/*.csv
+reports/*.json
+reports/*.png
+reports/*.pdf
+
+# Screenshots
+screenshots/*.png
+
+# Uploaded files
+static/uploads/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
